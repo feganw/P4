@@ -1,0 +1,37 @@
+/*DEVELOPER: Wesley Fegan, IS117-005, Spring 2021 */
+
+table {
+	border-style: inset;
+	border-color: tan;
+	border-width: medium;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+table hr {
+	width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+td p {
+	margin-left: 1%;
+}
+
+td {
+	border-style: inset;
+}
+
+.thumb {
+	width: 67px;
+	height: 67px;
+}
+
+table img {
+	padding: 3px 3px;
+}
+
+h4 {
+	margin-left: 5%;
+}

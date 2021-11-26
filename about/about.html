@@ -1,0 +1,43 @@
+<!-- DEVELOPER: Wesley Fegan, IS117-005, Spring 2021 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/png" href="/common/favicon.png"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="/common/style.css"/>
+	<link rel="stylesheet" href="/about/about.css"/>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $("div#header").load('/common/header.html');
+		$("div#footer").load('/common/footer.html');
+	  });
+	</script>
+  </head>
+  <body> 
+    <!-- Include header -->
+    <div id="header"></div>
+    <br><br><br><br><br><br>
+	  <div id="content">
+	    <h4>About</h4>
+	    <p>
+	      &nbsp;&nbsp;&nbsp;&nbsp;My name is Wesley Fegan. I am passionate about software development. The goal of this website is to put my name on the map so to speak. As of now, there are some fun software toys available for download. I write more serious software at my day job but I cannot really share any of that here yet (it's proprietary). I hope that you will take a look around my page and find something you enjoy!
+	    </p>
+		<br>
+		<div id="image_cap">
+		  <img src="/about/wes.jpg" type="image/jpg" alt="Wesley Fegan"/>
+		  <h4 id="caption">Wesley Fegan</h4>
+		</div>
+    <br>
+	  </div>
+  
+    <!-- Include footer -->
+    <div id="footer"></div>
+  </body>
+</html>
